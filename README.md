@@ -59,7 +59,7 @@ At this stage of the project timeline, our minimal viable project (MVP) will foc
 
 Additionally, user interactions will occur via the command line rather than a graphical user interface. However, to ensure the learning curve of our MVP isn't too steep, we will be using I/O commands to provide users with prompts which they can respond to. One final difference between our MVP and final product is that the range of available dates and restaurants will be pre-determined and limited in order to narrow the database. This allows us to test the matching algorithm on a smaller scale first, before attempting to apply it to a dynamic dataset.
 
-** To run the MVP:**
+**To run the MVP:**
 1. Navigate to the `prolog` directory
 2. Execute `make pro-food-log` in the terminal
 3. Run the query `start.`
