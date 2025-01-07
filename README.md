@@ -57,7 +57,13 @@ travelling to find restaurants anywhere in the world.
 ## Minimal Viable Project
 At this stage of the project timeline, our minimal viable project (MVP) will focus primarily on ensuring that the matching algorithm performs as expected for a small set of data. As such, the MVP will accommodate only 2 users, instead of an arbitrary number of users. Our system will leverage Prolog's pattern matching and scheduling abilities to create an algorithm that effectively determines the most appropriate date and eatery for 2 individuals to meet up at. Furthermore, we will use CLPFD in order to find a restaurant that satisfies all constraints and guest preferences as appropriate. In order to ensure a smooth(er) user experience, we plan to use the persistence library to store user preferences for ease of future use!
 
-Additionally, user interactions will occur via the command line rather than a graphical user interface. However, to ensure the learning curve of our MVP isn't too steep, we will be using I/O commands to provide users with prompts which they can respond to. One final difference between our MVP and final product is that the range of available dates and restaurants will be pre-determined and limited in order to narrow the database. This allows us to test the matching algorithm on a smaller scale first, before attempting to apply it to a dynamic dataset. For the sake of convenience and familiarity, we will include on-campus eateries only.
+Additionally, user interactions will occur via the command line rather than a graphical user interface. However, to ensure the learning curve of our MVP isn't too steep, we will be using I/O commands to provide users with prompts which they can respond to. One final difference between our MVP and final product is that the range of available dates and restaurants will be pre-determined and limited in order to narrow the database. This allows us to test the matching algorithm on a smaller scale first, before attempting to apply it to a dynamic dataset.
+
+** To run the MVP:**
+1. Navigate to the `prolog` directory
+2. Execute `make pro-food-log` in the terminal
+3. Run the query `start.`
+4. Follow the instructions prompted by the CLI
 
 ## Proof of Concept
 
