@@ -203,6 +203,8 @@ search_prompt_name("Enter the name of a user to invite.").
  %
 % Puts a search result (a meal) in the following format:
 %  | HH.xx | RestaurantName | Cuisine | Budget
+format_search_result(Time, Restaurant, Cuisine, BudgetMin, unknown, Line) :- 
+    format(string(Line), "| ~2f | ~w | ~w | over $~2f |\n", [Time, Restaurant, Cuisine, BudgetMin]).
 format_search_result(Time, Restaurant, Cuisine, BudgetMin, BudgetMax, Line) :- 
     format(string(Line), "| ~2f | ~w | ~w | $~2f to $~2f |\n", [Time, Restaurant, Cuisine, BudgetMin, BudgetMax]).
 
